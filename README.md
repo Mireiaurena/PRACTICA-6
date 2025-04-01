@@ -1,6 +1,6 @@
 # PRACTICA-6
 # **Práctica 6: Uso del Bus SPI**
-### **Práctica 6.1: Manipulación de Archivos en una Tarjeta SD**
+# **Práctica 6.1: Manipulación de Archivos en una Tarjeta SD**
 ## **1. Contexto y Objetivos**
 En esta práctica se analizará el funcionamiento del bus de comunicación SPI (Serial Peripheral Interface), continuando con el estudio de protocolos digitales. A diferencia de la práctica anterior, donde se trabajó con I2C, esta vez se abordará la gestión de archivos en una tarjeta SD y la lectura de identificadores RFID mediante SPI.
 
