@@ -1,7 +1,7 @@
 # PRACTICA-6
 # **Práctica 6: Uso del Bus SPI**
 # **Práctica 6.1: Manipulación de Archivos en una Tarjeta SD**
-## **1. Contexto y Objetivos**
+## **1. Objetivos**
 En esta práctica se analizará el funcionamiento del bus de comunicación SPI (Serial Peripheral Interface), continuando con el estudio de protocolos digitales. A diferencia de la práctica anterior, donde se trabajó con I2C, esta vez se abordará la gestión de archivos en una tarjeta SD y la lectura de identificadores RFID mediante SPI.
 
 Los objetivos de esta actividad son:
@@ -41,15 +41,16 @@ void loop()
 }
 ```
 
-### **Descripción del Código**
-El programa establece comunicación con la tarjeta SD y busca un archivo de texto denominado `archivo.txt`. Si la SD se encuentra operativa, el archivo se abre, su contenido se lee y se muestra en la consola serie. Para evitar problemas, el archivo se cierra al finalizar la lectura.
 
-### **Ejemplo de Salida Esperada:**
+## **3. Salida Esperada en el Monitor Serie**
 ```
 Iniciando SD... inicializacion existosa
 archivo.txt:
 Ejemplo de Salida Esperada
 ```
+### **4. Conclusión**
+El programa establece comunicación con la tarjeta SD y busca un archivo de texto denominado `archivo.txt`. Si la SD se encuentra operativa, el archivo se abre, su contenido se lee y se muestra en la consola serie. Para evitar problemas, el archivo se cierra al finalizar la lectura.
+
 # **Práctica 6.2: Lectura de Etiquetas RFID**
 
 ## **1. Objetivos**
