@@ -50,7 +50,7 @@ Iniciando SD... inicializacion existosa
 archivo.txt:
 Ejemplo de Salida Esperada
 ```
-# **Práctica 6.B: Lectura de Etiquetas RFID**
+# **Práctica 6.2: Lectura de Etiquetas RFID**
 
 ## **1. Objetivos**
 En esta práctica se explorará el funcionamiento del bus de comunicación SPI, con un enfoque en la lectura de etiquetas RFID mediante NFC.
